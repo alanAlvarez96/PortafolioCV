@@ -1,0 +1,36 @@
+.descripcion{
+  width: 80%;
+  margin: 0 10%;
+}
+.descripcion p{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.skill-logo{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.skill-img{
+  max-height: 80px;
+  max-width: 100px;
+  border-radius:4px;
+}
+.skill-text{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+}
+.progress{
+  height: 100%;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(42,122,120,1) 91%, rgba(0,212,255,1) 100%);
+  border-radius: 20px;
+  color: rgb(226,226,226);
+  display: flex;
+  justify-content:center;
+  transition:transform 2s ease-in;
+}

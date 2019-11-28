@@ -1,0 +1,40 @@
+.banner{
+  padding-top: 2px;
+  height: 50vh;
+  width: 100%;
+  position: relative;
+}
+.banner img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-70%);
+  color: white;
+  text-shadow:2px 2px 2px rgba(0,0,0,0.5) ;
+}
+.profilePicture{
+  max-height: 120px;
+  max-width: 120px;
+  border-radius: 50%;
+}
+@media screen  and (max-width:1024px){
+  .profile{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-70%);
+  }
+}
+@media screen  and (max-width:768px){
+  .profile{
+    width: 70%;
+  }
+}

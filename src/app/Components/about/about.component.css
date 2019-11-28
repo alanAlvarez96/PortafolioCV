@@ -1,0 +1,64 @@
+p{
+  margin: 10px 70px;
+  font-size: 17px;
+  text-align: justify;
+}
+main{
+  width: 100%;
+}
+.tec-Text{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+.tec-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tec-logo{
+  display: flex;
+  justify-content: center;
+  margin-top:20px;
+  margin-bottom: 10px;
+}
+.tec-img{
+  height: 60px;
+  width: 100px;
+  border-radius:4px;
+}
+.card{
+  height: 25vh;
+  width: 70%;
+  margin-left: 15%;
+}
+#technologies{
+  padding-bottom:10vh;
+  width: 90%;
+  margin-left: 5%;
+}
+#about{
+  width: 90%;
+  margin-left: 5%;
+}
+@media screen  and (max-width:768px){
+  p{
+    font-size: 15px;
+  }
+  #about{
+    width: 96%;
+    margin-left: 2%;
+    height: 80vh !important;
+  }
+  #technologies{
+    width: 96%;
+    margin-left: 2%;
+  }
+  .card{
+    height: 25vh;
+    width: 60%;
+    margin-left:20%;
+    grid-column: 1/4;
+    transform: translateX(5%);
+  }
+}

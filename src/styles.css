@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body{
-  font-family: 'Poppins','Roboto', sans-serif;
+  font-family: 'Poppins','Roboto', sans-serif !important;
 }
 .card{
   /* Add shadows to create the "card" effect */
@@ -25,11 +25,22 @@ body{
 .container {
   padding: 2px 16px;
 }
+.text-container{
+  width: 80%;
+  margin: 0 10%;
+}
+.text-container p{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
 .title{
   width: 70%;
   color: rgba(42,122,120,1);
   /*text-shadow:2px 2px 2px rgba(0,0,0,1) ;*/
-  margin-left: 15%;
+  margin: 15px 15%;
   text-align: center;
 }
 @media screen  and (max-width:1024px){
@@ -50,3 +61,6 @@ body{
 
 }
 
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

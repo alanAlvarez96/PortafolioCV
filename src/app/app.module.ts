@@ -6,6 +6,8 @@ import { NavBarComponent } from './Components/nav-bar/nav-bar.component';
 import { BannerComponent } from './Components/banner/banner.component';
 import { AboutComponent } from './Components/about/about.component';
 import { SkillsComponent } from './Components/skills/skills.component';
+import { ProjectsComponent } from './Components/projects/projects.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -13,11 +15,13 @@ import { SkillsComponent } from './Components/skills/skills.component';
     NavBarComponent,
     BannerComponent,
     AboutComponent,
-    SkillsComponent
+    SkillsComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
-    routing
+    routing,
+    BrowserAnimationsModule
   ],
   providers: [appRoutingProvider],
   bootstrap: [AppComponent]

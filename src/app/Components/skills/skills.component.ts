@@ -6,12 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./skills.component.css']
 })
 export class SkillsComponent implements OnInit {
-  private HTML: string;
-  private JS: string;
-  private CSS: string;
-  private PHP: string;
-  private JAVA: string;
-  private SQL: string;
+  public HTML: string;
+  public JS: string;
+  public CSS: string;
+  public PHP: string;
+  public JAVA: string;
+  public SQL: string;
   constructor() {
     this.HTML = '2 años';
     this.JS = '1 año';

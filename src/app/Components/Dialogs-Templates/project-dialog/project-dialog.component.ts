@@ -9,10 +9,10 @@ import {ProjectData} from '../../../Tools/Interfaces';
 })
 export class ProjectDialogComponent implements OnInit {
   private Projects: ProjectData;
-  private nombre: string;
-  private id: number;
-  private desc: string;
-  private sinopsis: string;
+  public nombre: string;
+  public id: number;
+  public desc: string;
+  public sinopsis: string;
   constructor(public dialog: MatDialogRef<ProjectDialogComponent>, @Inject(MAT_DIALOG_DATA) public data) {
     this.Projects = this.data;
     // tslint:disable-next-line:no-unused-expression

@@ -2,6 +2,14 @@
   width: 80%;
   margin: 0 10%;
 }
+.tec-Text{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 18px;
+  text-align: center;
+  width: 100%;
+  margin-left: 15%;
+}
 .descripcion p{
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -13,6 +21,12 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  margin-bottom: 10px;
+}
+.card{
+  height: 25vh;
+  width: 70%;
+  margin-left: 15%;
 }
 .skill-img{
   max-height: 80px;
@@ -23,7 +37,11 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 16px;
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
 }
+
 .progress{
   height: 100%;
   background: rgb(2,0,36);

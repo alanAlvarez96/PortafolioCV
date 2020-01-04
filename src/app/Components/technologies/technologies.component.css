@@ -3,13 +3,6 @@ p{
   font-size: 17px;
   text-align: justify;
 }
-a{
-  color: rgba(42,122,120,1);
-  text-decoration: none;
-}
-main{
-  width: 100%;
-}
 .tec-Text{
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -32,7 +25,7 @@ main{
   border-radius:4px;
 }
 .card{
-  height: 25vh;
+  height: 28vh;
   width: 70%;
   margin-left: 15%;
 }

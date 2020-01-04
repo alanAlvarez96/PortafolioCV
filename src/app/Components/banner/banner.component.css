@@ -1,6 +1,9 @@
+.banner-container{
+  margin-top: 8vh;
+}
 .banner{
   padding-top: 2px;
-  height: 50vh;
+  height: 40vh;
   width: 100%;
   position: relative;
 }
@@ -14,7 +17,7 @@
   flex-direction: column;
   align-items: center;
   position: absolute;
-  top: 45%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%,-70%);
   color: white;
@@ -28,7 +31,7 @@
 @media screen  and (max-width:1024px){
   .profile{
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%,-70%);
   }

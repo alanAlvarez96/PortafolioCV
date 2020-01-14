@@ -12,13 +12,15 @@ export class SkillsComponent implements OnInit {
   public PHP: string;
   public JAVA: string;
   public SQL: string;
+  public Dart: string;
   constructor() {
     this.HTML = '2 años';
-    this.JS = '1 año';
-    this.CSS = '1 año';
+    this.JS = '2 años';
+    this.CSS = '2 años';
     this.PHP = '2 años';
-    this.JAVA = '2 años';
-    this.SQL = '2 años';
+    this.JAVA = '4 años';
+    this.SQL = '3 años';
+    this.Dart = '6 meses';
   }
 
   ngOnInit() {}

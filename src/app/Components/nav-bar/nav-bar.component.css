@@ -3,8 +3,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(42, 122, 120, 1) 91%, rgba(0, 212, 255, 1) 100%);
+  background: #2c3e50;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -60,14 +59,13 @@ nav {
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(42,122,120,1) 81%, rgba(0,212,255,1) 100%);
+    background: #2c3e50;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 45%;
     transform: translateX(100%);
-    transition:transform 0.5s ease-in;
+    transition:transform 0.35s ease-in;
   }
   .nav-links li{
     opacity: 0;

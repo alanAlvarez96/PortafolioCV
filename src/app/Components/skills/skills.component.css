@@ -52,3 +52,33 @@
   justify-content:center;
   transition:transform 2s ease-in;
 }
+@media screen  and (max-width:768px){
+ .descripcion p{
+    letter-spacing: 0;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  .tec-Text{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
+  .card{
+    height: 25vh;
+    width: 70%;
+    margin-left:5%;
+    grid-column: 1/4;
+    transform: translateX(5%);
+  }
+}
+@media screen  and (max-width:350px){
+  .card{
+    height: 30vh;
+    width: 70%;
+    margin-left:10%;
+    margin-bottom:10%;
+    grid-column: 1/4;
+    transform: translateX(5%);
+  }
+}

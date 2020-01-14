@@ -47,7 +47,9 @@ main{
 }
 @media screen  and (max-width:768px){
   p{
+    margin-left: 20px;
     font-size: 15px;
+    text-align: left;
   }
   #about{
     width: 96%;
